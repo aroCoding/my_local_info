@@ -1,44 +1,96 @@
-import unittest
-from unittest.mock import patch, mock_open
-import json
-from utils.data_loader import load_products, filter_products_by_category
 
-class TestDataLoader(unittest.TestCase):
+import pytest
+from src.services.location_weather_service import getCoordinatesByCityName
+from src.services.location_weather_service import getWeatherByCoordinates
+from src.services.location_weather_service import getWeatherIconPath
+from src.models.region import Region
+from src.models.population import Population
+
+def test_getCoordinatesByCityName():
+    lat, lon = getCoordinatesByCityName("Seoul")
+    weatherInfo = getWeatherByCoordinates((lat, lon))
+
+    assert lat == 37.5666791
+    assert lon == 126.9782914
+
+    iconPath = getWeatherIconPath(weatherInfo)
+
+    print(iconPath)
+    assert iconPath == "assets/icons/broken_clouds.png"
+
+
     
-    def setUp(self):
-        """테스트 설정"""
-        self.sample_products = [
-            {
-                "uuid": "test-1",
-                "name": "테스트 상품 1",
-                "category": "food_agriculture",
-                "location_code": "KR-26-16"
+def test_population_model():
+    json_data = {
+        "total": 9323492,
+        "age_groups": {
+            "teens": 721320,
+            "twenties": 1283295,
+            "thirties": 1453915,
+            "forties": 1370576,
+            "fifties_plus": 4025570,
+            "centenarians": 1483
+        },
+        "rank": {
+            "total": 1,
+            "teens": 1,
+            "twenties": 1,
+            "thirties": 1,
+            "forties": 1,
+            "fifties_plus": 1,
+            "centenarians": 1
+        }
+    }
+
+    population = Population.from_dict(json_data)
+
+    assert population.total == 9323492
+    assert population.age_groups['teens'] == 721320
+    assert population.age_groups['twenties'] == 1283295
+    assert population.age_groups['thirties'] == 1453915
+    assert population.age_groups['forties'] == 1370576
+    assert population.age_groups['fifties_plus'] == 4025570
+    assert population.age_groups['centenarians'] == 1483
+    assert population.rank['total'] == 1
+    assert population.rank['teens'] == 1
+    assert population.rank['twenties'] == 1
+    assert population.rank['thirties'] == 1
+
+def test_region_model():
+    json_data = {
+        "level": "province",
+        "nameEn": "Seoul",
+        "nameKo": "서울특별시",
+        "nameJa": "ソウル",
+        "code": "KR-11",
+        "population": {
+            "total": 9323492,
+            "age_groups": {
+                "teens": 721320,
+                "twenties": 1283295,
+                "thirties": 1453915,
+                "forties": 1370576,
+                "fifties_plus": 4025570,
+                "centenarians": 1483
             },
-            {
-                "uuid": "test-2", 
-                "name": "테스트 상품 2",
-                "category": "food_fishery",
-                "location_code": "KR-26-12"
+            "rank": {
+                "total": 1,
+                "teens": 1,
+                "twenties": 1,
+                "thirties": 1,
+                "forties": 1,
+                "fifties_plus": 1,
+                "centenarians": 1
             }
-        ]
-    
-    @patch('builtins.open', new_callable=mock_open)
-    @patch('json.load')
-    def test_load_products_success(self, mock_json_load, mock_file):
-        """상품 로드 성공 테스트"""
-        mock_json_load.return_value = self.sample_products
-        
-        result = load_products()
-        
-        self.assertEqual(len(result), 2)
-        self.assertEqual(result[0]['name'], '테스트 상품 1')
-    
-    def test_filter_products_by_category(self):
-        """카테고리별 필터링 테스트"""
-        result = filter_products_by_category(self.sample_products, 'food_agriculture')
-        
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]['category'], 'food_agriculture')
+        }
+    }
 
-if __name__ == '__main__':
-    unittest.main()
+    region = Region.from_dict(json_data)
+
+    assert region.nameEn == "Seoul"
+    assert region.nameKo == "서울특별시"
+    assert region.nameJa == "ソウル"
+    assert region.code == "KR-11"
+    assert region.population.total == 9323492
+    assert region.population.age_groups['teens'] == 721320
+    assert region.population.age_groups['twenties'] == 1283295
