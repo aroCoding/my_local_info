@@ -1,7 +1,5 @@
 from re import S
 import streamlit as st
-import pandas as pd
-import altair as alt
 from components import weatherInfoUI
 from components import showRegionInfoUI
 from components import showPopulationUI
@@ -13,7 +11,9 @@ st.set_page_config(page_title="홈 - 지역 특산물", page_icon="🏠")
 
 region_data = getRegionData()
 region_list = extract_nameKo_list(region_data)
-st.session_state.region = '서울특별시'
+
+if 'region' not in st.session_state:
+    st.session_state.region = '서울특별시'
 
 
 def show_home():
