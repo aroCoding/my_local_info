@@ -205,8 +205,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-
-# JSON 데이터 파일들
-*.json
-data/*.json
-data/*.jsonc

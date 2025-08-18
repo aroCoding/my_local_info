@@ -1,0 +1,478 @@
+[
+    {
+        "level": "province",
+        "nameEn": "Seoul",
+        "nameKo": "서울특별시",
+        "nameJa": "ソウル",
+        "code": "KR-11",
+        "description": "과거 조선왕조 500년간 한반도의 정치·문화 중심지였던 한양으로, 경복궁과 창덕궁 등 5대 궁궐과 한양도성으로 둘러싸인 전통 도성이었습니다. 현재 대한민국의 수도이자 동아시아 경제 허브로, 첨단 IT 기술과 K-문화가 세계로 뻗어나가는 글로벌 메가시티입니다.",
+        "population": {
+            "total": 9323492,
+            "age_groups": {
+                "teens": 721320,
+                "twenties": 1283295,
+                "thirties": 1453915,
+                "forties": 1370576,
+                "fifties_plus": 4025570,
+                "centenarians": 1483
+            },
+            "rank": {
+                "total": 2,
+                "teens": 2,
+                "twenties": 2,
+                "thirties": 2,
+                "forties": 2,
+                "fifties_plus": 2,
+                "centenarians": 2
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Busan",
+        "nameKo": "부산광역시",
+        "nameJa": "釜山",
+        "code": "KR-26",
+        "description": "과거 조선시대부터 일제강점기까지 한반도 최대의 국제무역항이자 용두산공원과 태종대를 품은 일본과의 관문 역할을 담당했던 해양도시였습니다. 현재 대한민국 제2의 도시이자 동북아 물류 허브로, 국제영화제와 해운대로 유명한 글로벌 관광·문화도시입니다.",
+        "population": {
+            "total": 3251625,
+            "age_groups": {
+                "teens": 264105,
+                "twenties": 347001,
+                "thirties": 388293,
+                "forties": 464061,
+                "fifties_plus": 1613780,
+                "centenarians": 432
+            },
+            "rank": {
+                "total": 3,
+                "teens": 5,
+                "twenties": 3,
+                "thirties": 4,
+                "forties": 5,
+                "fifties_plus": 3,
+                "centenarians": 10
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Daegu",
+        "nameKo": "대구광역시",
+        "nameJa": "大邱",
+        "code": "KR-27",
+        "description": "과거 조선시대 영남 지역의 행정·교육 중심지였던 대구부로, 서원과 향교가 즐비하고 팔공산 동화사를 중심으로 전통 한학과 유교문화가 깊이 뿌리내린 보수적 학문도시였습니다. 현재 대한민국 섬유·패션산업의 메카이자 의료관광 특화도시로, 첨단 의료기술과 전통문화가 조화를 이루는 내륙 중심도시입니다.",
+        "population": {
+            "total": 2357040,
+            "age_groups": {
+                "teens": 212852,
+                "twenties": 259482,
+                "thirties": 284076,
+                "forties": 338976,
+                "fifties_plus": 1124377,
+                "centenarians": 281
+            },
+            "rank": {
+                "total": 7,
+                "teens": 7,
+                "twenties": 6,
+                "thirties": 6,
+                "forties": 6,
+                "fifties_plus": 7,
+                "centenarians": 12
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Incheon",
+        "nameKo": "인천광역시",
+        "nameJa": "仁川",
+        "code": "KR-28",
+        "description": "과거 조선시대 작은 어촌마을이었던 인천부로, 1883년 개항과 함께 차이나타운과 자유공원이 조성되며 서구문물이 처음 들어온 근대화의 관문이었습니다. 현재 인천국제공항을 보유한 대한민국의 하늘 관문이자 송도국제업무단지 등 첨단 스마트시티로 발전한 국제물류·비즈니스 허브입니다.",
+        "population": {
+            "total": 3041215,
+            "age_groups": {
+                "teens": 275205,
+                "twenties": 343681,
+                "thirties": 427940,
+                "forties": 474175,
+                "fifties_plus": 1328634,
+                "centenarians": 541
+            },
+            "rank": {
+                "total": 5,
+                "teens": 4,
+                "twenties": 4,
+                "thirties": 3,
+                "forties": 4,
+                "fifties_plus": 6,
+                "centenarians": 5
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Gwangju",
+        "nameKo": "광주광역시",
+        "nameJa": "光州",
+        "code": "KR-29",
+        "description": "과거 조선시대 호남 지역의 행정 중심지였던 광주목으로, 무등산 증심사와 소쇄원 등 전통 예향문화와 선비정신이 깊이 뿌리내린 문화도시였습니다. 현재 5·18 민주화운동의 성지이자 아시아문화중심도시로, 광주비엔날레와 첨단과학산업단지를 통해 문화예술과 과학기술이 융합된 창조도시입니다.",
+        "population": {
+            "total": 1398538,
+            "age_groups": {
+                "teens": 144440,
+                "twenties": 175332,
+                "thirties": 173489,
+                "forties": 215553,
+                "fifties_plus": 601155,
+                "centenarians": 186
+            },
+            "rank": {
+                "total": 14,
+                "teens": 11,
+                "twenties": 11,
+                "thirties": 11,
+                "forties": 12,
+                "fifties_plus": 14,
+                "centenarians": 15
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Daejeon",
+        "nameKo": "대전광역시",
+        "nameJa": "大田",
+        "code": "KR-30",
+        "description": "과거 조선시대 충청도의 작은 교통 요충지였던 대전현으로, 보문산 뿌리공원과 계족산 황톳길이 어우러진 경부선과 호남선 철도가 만나는 교차점 역할의 내륙 교통도시였습니다. 현재 대덕연구개발특구와 카이스트를 중심으로 한 대한민국 과학기술의 심장부이자, 정부세종청사와 연계된 행정·연구 중심도시입니다.",
+        "population": {
+            "total": 1440682,
+            "age_groups": {
+                "teens": 135988,
+                "twenties": 190311,
+                "thirties": 193281,
+                "forties": 210477,
+                "fifties_plus": 622330,
+                "centenarians": 215
+            },
+            "rank": {
+                "total": 13,
+                "teens": 13,
+                "twenties": 9,
+                "thirties": 9,
+                "forties": 13,
+                "fifties_plus": 13,
+                "centenarians": 14
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Ulsan",
+        "nameKo": "울산광역시",
+        "nameJa": "蔚山",
+        "code": "KR-31",
+        "description": "과거 조선시대 동해안의 작은 어촌마을이었던 울산군으로, 반구대 암각화와 처용설화가 전해지는 고래잡이와 소금 생산의 전통 해안도시였습니다. 현재 현대중공업과 SK에너지 등 중화학공업이 집중된 대한민국 최대의 산업도시이자, 세계 최대 조선소와 석유화학단지를 보유한 글로벌 제조업 허브입니다.",
+        "population": {
+            "total": 1093317,
+            "age_groups": {
+                "teens": 109461,
+                "twenties": 113355,
+                "thirties": 136397,
+                "forties": 170157,
+                "fifties_plus": 494547,
+                "centenarians": 91
+            },
+            "rank": {
+                "total": 15,
+                "teens": 15,
+                "twenties": 15,
+                "thirties": 15,
+                "forties": 15,
+                "fifties_plus": 15,
+                "centenarians": 16
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Sejong",
+        "nameKo": "세종특별자치시",
+        "nameJa": "世宗",
+        "code": "KR-50",
+        "description": "과거 백제의 고도였던 공주·부여 일대의 농촌지역으로, 백제 무령왕릉과 부소산성 등 찬란한 백제문화유산이 산재한 금강 유역의 비옥한 평야지대였습니다. 현재 2012년 출범한 대한민국 행정수도 이전의 핵심도시로, 36개 중앙부처가 입주한 첨단 행정복합도시이자 균형발전을 위한 신도시입니다.",
+        "population": {
+            "total": 392154,
+            "age_groups": {
+                "teens": 53598,
+                "twenties": 36705,
+                "thirties": 58404,
+                "forties": 76817,
+                "fifties_plus": 126844,
+                "centenarians": 43
+            },
+            "rank": {
+                "total": 17,
+                "teens": 17,
+                "twenties": 17,
+                "thirties": 17,
+                "forties": 17,
+                "fifties_plus": 17,
+                "centenarians": 17
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Gyeonggi",
+        "nameKo": "경기도",
+        "nameJa": "京畿道",
+        "code": "KR-41",
+        "description": "과거 조선시대 한양을 둘러싸고 있던 경기감영 관할 지역으로, 정조가 아버지 사도세자를 위해 건설한 수원화성과 신도시 화성이 자리한 수도 방위의 핵심 지역이었습니다. 현재 대한민국 인구의 4분의 1이 거주하는 최대 광역도로, 수원·성남·고양 등 위성도시들과 판교테크노밸리 등 첨단산업단지가 조성된 수도권 메가시티의 중심축입니다.",
+        "population": {
+            "total": 13715016,
+            "age_groups": {
+                "teens": 1326019,
+                "twenties": 1588251,
+                "thirties": 1915357,
+                "forties": 2191701,
+                "fifties_plus": 5785722,
+                "centenarians": 2001
+            },
+            "rank": {
+                "total": 1,
+                "teens": 1,
+                "twenties": 1,
+                "thirties": 1,
+                "forties": 1,
+                "fifties_plus": 1,
+                "centenarians": 1
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Gangwon",
+        "nameKo": "강원특별자치도",
+        "nameJa": "江原道",
+        "code": "KR-42",
+        "description": "과거 조선시대 영동과 영서로 나뉘어 태백산맥이 가로지르는 험준한 산간지역으로, 강릉 경포대와 삼척 죽서루 등 관동팔경의 절경과 동해안 어촌이 어우러진 자연 그대로의 오지였습니다. 현재 2018 평창동계올림픽 개최지이자 DMZ 접경의 평화관광 중심지로, 청정 자연환경과 레저·관광산업이 발달한 힐링과 평화의 특별자치도입니다.",
+        "population": {
+            "total": 1510181,
+            "age_groups": {
+                "teens": 125810,
+                "twenties": 150649,
+                "thirties": 158114,
+                "forties": 196699,
+                "fifties_plus": 796444,
+                "centenarians": 443
+            },
+            "rank": {
+                "total": 12,
+                "teens": 14,
+                "twenties": 14,
+                "thirties": 14,
+                "forties": 14,
+                "fifties_plus": 11,
+                "centenarians": 9
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "chungcheongbuk",
+        "nameKo": "충청북도",
+        "nameJa": "忠清北道",
+        "code": "KR-43",
+        "description": "과거 조선시대 충청도의 내륙 중심지로, 속리산 법주사와 단양 도담삼봉 등 불교문화와 자연경관이 어우러진 유교와 불교의 공존 지역이었습니다. 현재 청주국제공항과 오송생명과학단지를 중심으로 한 바이오·의료산업의 메카이자, 내륙 교통의 요충지로 발전한 과학기술 혁신도시입니다.",
+        "population": {
+            "total": 1591815,
+            "age_groups": {
+                "teens": 143089,
+                "twenties": 169353,
+                "thirties": 190906,
+                "forties": 222510,
+                "fifties_plus": 771192,
+                "centenarians": 297
+            },
+            "rank": {
+                "total": 11,
+                "teens": 12,
+                "twenties": 12,
+                "thirties": 10,
+                "forties": 11,
+                "fifties_plus": 12,
+                "centenarians": 11
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Chungcheongnam",
+        "nameKo": "충청남도",
+        "nameJa": "忠清南道",
+        "code": "KR-44",
+        "description": "과거 조선시대 충청감영이 설치된 공주와 백제의 마지막 수도였던 부여를 중심으로, 무령왕릉과 정림사지 오층석탑 등 백제문화유산이 산재한 서해안 곡창지대였습니다. 현재 당진제철소와 아산만 일대 산업단지를 중심으로 한 서해안 산업벨트의 핵심축이자, 온양온천과 독립기념관을 보유한 역사·문화관광 중심지입니다.",
+        "population": {
+            "total": 2136299,
+            "age_groups": {
+                "teens": 202517,
+                "twenties": 215443,
+                "thirties": 252062,
+                "forties": 315039,
+                "fifties_plus": 1021509,
+                "centenarians": 489
+            },
+            "rank": {
+                "total": 8,
+                "teens": 8,
+                "twenties": 8,
+                "thirties": 8,
+                "forties": 8,
+                "fifties_plus": 8,
+                "centenarians": 7
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "jeollabuk",
+        "nameKo": "전북특별자치도",
+        "nameJa": "全羅北道",
+        "code": "KR-45",
+        "description": "과거 조선시대 전라감영이 설치된 전주를 중심으로, 한옥마을과 조선왕조실록을 보관한 경기전이 자리한 한반도 남서부 곡창지대의 행정·문화 중심지였습니다. 현재 전주비빔밥과 한지로 대표되는 전통문화 보존의 메카이자, 새만금 간척사업과 함께 서해안 신성장 동력의 핵심 거점으로 변모한 농생명·관광 특화도시입니다.",
+        "population": {
+            "total": 1729337,
+            "age_groups": {
+                "teens": 160265,
+                "twenties": 175875,
+                "thirties": 172529,
+                "forties": 229830,
+                "fifties_plus": 900431,
+                "centenarians": 464
+            },
+            "rank": {
+                "total": 10,
+                "teens": 9,
+                "twenties": 10,
+                "thirties": 12,
+                "forties": 9,
+                "fifties_plus": 10,
+                "centenarians": 8
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Jeollanam",
+        "nameKo": "전라남도",
+        "nameJa": "全羅南道",
+        "code": "KR-46",
+        "description": "과거 조선시대 전라도 남부 지역으로, 순천만 갈대밭과 보성 녹차밭, 영광 불갑사 등 천혜의 자연환경과 다도해 섬문화가 어우러진 한반도 최남단의 해양농업 중심지였습니다. 현재 광양제철소와 여수 석유화학단지를 중심으로 한 동북아 해양물류 허브이자, 순천만국가정원과 여수세계박람회장을 통해 생태관광과 해양문화가 융합된 블루이코노미 선도지역입니다.",
+        "population": {
+            "total": 1782183,
+            "age_groups": {
+                "teens": 155618,
+                "twenties": 163051,
+                "thirties": 169648,
+                "forties": 229537,
+                "fifties_plus": 966578,
+                "centenarians": 542
+            },
+            "rank": {
+                "total": 9,
+                "teens": 10,
+                "twenties": 13,
+                "thirties": 13,
+                "forties": 10,
+                "fifties_plus": 9,
+                "centenarians": 4
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Gyeongsangbuk",
+        "nameKo": "경상북도",
+        "nameJa": "慶尚北道",
+        "code": "KR-47",
+        "description": "과거 조선시대 경상감영이 설치된 대구를 중심으로, 경주 불국사와 석굴암, 안동 하회마을 등 신라 천년고도와 유교문화의 본향이 공존하는 영남 지역의 정치·문화 중심지였습니다. 현재 포항제철소와 구미 전자산업단지를 중심으로 한 동해안 산업벨트의 핵심축이자, 세계문화유산과 전통문화가 첨단산업과 조화를 이루는 문화·산업 융합지역입니다.",
+        "population": {
+            "total": 2516753,
+            "age_groups": {
+                "teens": 215714,
+                "twenties": 226544,
+                "thirties": 253958,
+                "forties": 337104,
+                "fifties_plus": 1350207,
+                "centenarians": 586
+            },
+            "rank": {
+                "total": 6,
+                "teens": 6,
+                "twenties": 7,
+                "thirties": 7,
+                "forties": 7,
+                "fifties_plus": 5,
+                "centenarians": 3
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Gyeongsangnam",
+        "nameKo": "경상남도",
+        "nameJa": "慶尚南道",
+        "code": "KR-48",
+        "description": "과거 조선시대 경상우도 지역으로, 진주성과 통영 한산대첩비, 합천 해인사 팔만대장경 등 임진왜란 호국정신과 불교문화유산이 깃든 낙동강 하류 평야와 남해안 일대였습니다. 현재 창원 기계공업단지와 거제 조선해양산업을 중심으로 한 동남권 제조업 메가클러스터이자, K-팝 성지 진주와 통영의 해양관광이 어우러진 산업·문화 복합지역입니다.",
+        "population": {
+            "total": 3214016,
+            "age_groups": {
+                "teens": 314002,
+                "twenties": 295003,
+                "thirties": 343941,
+                "forties": 480612,
+                "fifties_plus": 1595469,
+                "centenarians": 493
+            },
+            "rank": {
+                "total": 4,
+                "teens": 3,
+                "twenties": 5,
+                "thirties": 5,
+                "forties": 3,
+                "fifties_plus": 4,
+                "centenarians": 6
+            }
+        }
+    },
+    {
+        "level": "province",
+        "nameEn": "Jeju",
+        "nameKo": "제주특별자치도",
+        "nameJa": "濟州",
+        "code": "KR-49",
+        "description": "과거 조선시대 탐라국의 전통을 이어받은 제주목으로, 한라산과 성산일출봉, 만장굴 등 화산섬 특유의 절경과 해녀문화가 살아 숨 쉬는 한반도 최남단의 독특한 섬 왕국이었습니다. 현재 대한민국 최대 관광특별자치도이자 국제자유도시로, 면세쇼핑과 카지노, 중국 관광객 무비자 입국 등 글로벌 휴양·레저 허브로 발전한 평화의 섬입니다.",
+        "population": {
+            "total": 666226,
+            "age_groups": {
+                "teens": 70051,
+                "twenties": 67180,
+                "thirties": 77177,
+                "forties": 103247,
+                "fifties_plus": 303032,
+                "centenarians": 217
+            },
+            "rank": {
+                "total": 16,
+                "teens": 16,
+                "twenties": 16,
+                "thirties": 16,
+                "forties": 16,
+                "fifties_plus": 16,
+                "centenarians": 13
+            }
+        }
+    }
+]
