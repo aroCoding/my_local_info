@@ -6,12 +6,37 @@ def getCoordinatesByCityName(city_name: str) -> tuple[float, float]:
     """
     apiKey = "5d5261f59b3c727e66ea6bf7ab5ce1aa"
 
-    url = f"http://api.openweathermap.org/geo/1.0/direct?q={city_name}&appid={apiKey}"
-    response = requests.get(url)
-    data = response.json()
+    if city_name == "경기도":
+        city_name = "경기"
+    elif city_name == "강원특별자치도":
+        city_name = "강원"
+    elif city_name == "제주특별자치도":
+        city_name = "제주"
 
-    # print(data)
-    return data[0]["lat"], data[0]["lon"]
+    url = f"http://api.openweathermap.org/geo/1.0/direct?q={city_name}&appid={apiKey}"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Raise an error for bad responses
+        data = response.json()
+
+        if city_name == "충청북도":
+            return 36.737510, 126.790341
+        elif city_name == "충청남도":
+            return 36.722304, 126.798624
+        elif city_name == "전북특별자치도":
+            return 35.718258, 127.153027
+        elif city_name == "전라남도":
+            return 34.869448, 126.990737
+        elif city_name == "경상북도":
+            return 36.321854, 128.893088
+        elif city_name == "경상남도":
+            return 35.532870, 128.188550
+
+        return data[0]["lat"], data[0]["lon"]
+
+    except (requests.RequestException, IndexError, KeyError) as e:
+        # print(f"Error fetching coordinates for {city_name}: {e}")
+        return Exception(f"Error fetching coordinates for {city_name}: {e}")
 
 
 def getWeatherByCoordinates(coordinates: tuple[float, float]) -> dict:

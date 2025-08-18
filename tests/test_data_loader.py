@@ -5,6 +5,7 @@ from src.services.location_weather_service import getWeatherByCoordinates
 from src.services.location_weather_service import getWeatherIconPath
 from src.models.region import Region
 from src.models.population import Population
+from src.services.select_region_service import getRegionData
 
 def test_getCoordinatesByCityName():
     lat, lon = getCoordinatesByCityName("Seoul")
@@ -94,3 +95,19 @@ def test_region_model():
     assert region.population.total == 9323492
     assert region.population.age_groups['teens'] == 721320
     assert region.population.age_groups['twenties'] == 1283295
+
+
+def get_region_name_list():
+    region_data = getRegionData()
+    region_name_list = [region['nameKo'] for region in region_data]
+
+    assert region_name_list is type(list)
+    assert region_name_list[0] == "서울특별시"
+    assert region_name_list[1] == "부산광역시"
+    assert region_name_list[2] == "대구광역시"
+    assert region_name_list[3] == "인천광역시"
+    assert region_name_list[4] == "광주광역시"
+    assert region_name_list[5] == "대전광역시"
+    assert region_name_list[6] == "울산광역시"
+    assert region_name_list[7] == "세종특별자치시"
+    assert region_name_list[8] == "경기도"
