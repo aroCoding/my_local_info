@@ -67,3 +67,6 @@ my_local_info/
 ## 🌟 특징
 - **지역 선택 시 관련 정보 제공**
 - **사용자 맞춤형 정보 제공**
+
+## 배포 링크
+https://mylocal.streamlit.app/

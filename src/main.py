@@ -1,5 +1,5 @@
 from pages import show_home
-
+import streamlit as st
 
 def main():
     '''
@@ -10,6 +10,9 @@ def main():
         import pages.login as login
         login.show_login()
     '''
+    if 'region' not in st.session_state:
+        st.session_state.region = '서울특별시'
+        
     show_home()
 
 if __name__ == "__main__":

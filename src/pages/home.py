@@ -12,8 +12,6 @@ st.set_page_config(page_title="홈 - 지역 특산물", page_icon="🏠")
 region_data = getRegionData()
 region_list = extract_nameKo_list(region_data)
 
-if 'region' not in st.session_state:
-    st.session_state.region = '서울특별시'
 
 
 def show_home():
