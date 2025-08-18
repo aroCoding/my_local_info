@@ -8,11 +8,6 @@ def weatherInfoUI(city_name: str):
     # Weather API 응답 파싱
     lat, lon = getCoordinatesByCityName(city_name)
 
-    if lat or lon is Exception:
-        with st.spinner("Wait for it...", show_time=True):
-            time.sleep(2)
-        return st.error("날씨 정보를 가져오는데 실패했습니다.")
-
     weatherInfo = getWeatherByCoordinates((lat, lon))
     iconPath = getWeatherIconPath(weatherInfo)
 
